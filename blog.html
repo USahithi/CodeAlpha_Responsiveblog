@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Responsive Blog Section </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        </link>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image: url(https://img.lovepik.com/background/20211022/large/lovepik-sky-clouds-background-image_401746897.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width:100%;
+}
+.container  .row{
+    width:80%;
+    margin:auto;
+}
+.container  .row .header{
+    width:60%;
+    text-align:center;
+}
+.container  .row  .header h1{
+    text-align: right;
+    padding-top: 30px;
+    font-size: 45px;
+    color:#9e1d91;
+}
+.container  .row  .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-header: 1.5;
+    color: #6e6e6e;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.content  .card{
+    flex:1;
+    margin:50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color:#fff;
+   
+    
+}
+.content .card img{
+    width:300px;
+    height:auto;
+
+}
+.content  .card h2{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:18px;
+
+}
+.content .card p{
+    font-size:15px;
+    color:#6e6e6e;
+    line-height:1.5;
+    padding :10px;
+}
+@media screen and (max-width: 768px){
+    .content {
+        flex-direction: column;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="row">
+            <div class="header">
+                <h1> AQUA HORIZONS</h1>
+            </div>
+            <div class ="content">
+                <div class="card">
+                    <h2 >Niagara Falls, USA/Canada</h2><br>
+                    <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcS7vEX9P5kH3t2BPn-vm4DlRi7OEYlWCo0Hd2vvEA6jUrCwQnynbAiHBUMyfBcCvKpn">
+                    
+                    <p>  Undoubtedly one of most famous waterfalls in the world, Niagara Falls sits on the border between the United States and Canada meaning that the thundering attraction can be viewed from either country – though the vantage point from the Canadian side is often cited as being the best. That said, if in western New York State, you get the chance to get up close to all three falls that make up Niagara – Horseshoe, Bridal Veil and American, the water that runs over the falls comes from the Great Lakes. Ninety percent of the water goes over the Horseshoe Falls.</p>
+            
+                    </div>
+                <div class="card">
+                    <h2 >Angel Falls, Venezuela</h2><br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbFiW1TGmbGSr4RvwHJWxvGjYc4v-csaGuiw&usqp=CAU">
+                    
+                    <p >The highest waterfall in the world, dropping 979 metres from a table-top mountain in Venezuela, is the awe-inspiring Angel Falls. Found in the UNESCO-listed Canaima National Park in the eastern state of Bolívar, 807 metres of the famous waterfall is uninterrupted, and when in full flow it’s a mesmerising sight. The best time to visit is between June and November. Indigenously called Kerepakupai-merú, the waterfall’s more well-known name is associated with American aviator Jimmie Angel, who in 1933 saw the magnificent cascade from the sky, allegedly while searching for gold.</p>
+                    </div>
+                <div class ="card">
+                    <h2>Rhine Falls, Switzerland</h2><br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa-YuRH-PFlr64LP5k_ehc4Q6q-PfAFXnpSQ&usqp=CAU">
+    
+                    <p>Europe's largest waterfall, the Rhine Falls, can be found near Schaffhausen in northern Switzerland and fall 23 metres over the full 150-metre width of the Rhine river.  While not as high as some other famous waterfalls, the Rhine Falls – thought to have been formed 15,000 years ago – are still a remarkable natural sight and well worth a visit if in the vicinity while on holiday in Europe. At its most theatrical during the spring and summer, when the average water flow doubles, 600,000 litres of water plummets over the falls every second.</p>
+                </div>
+                <div class ="card">
+                    <h2>Tugela Falls, South Africa</h2><br>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPbH6rsTWYvFMSTkcJ8UZdNhT5z2xUDmvMpA&usqp=CAU">
+                    
+                    <p>With a drop of 948 metres, Tugela Falls is Africa's tallest waterfall and an unmissable spectacle if touring near the Royal Natal National Park on a holiday to South Africa. Falling down the Amphitheatre cliff face in the Drakensberg Mountains, water plunges in five distinct consecutive leaps and is at its peak after heavy rain - the summer period from November to February is also the rainy season. Visit after a long spell of dry weather and you may think the Tugela Falls should be called the Tugela Dribbles.</p>
+                </div>
+                
+            </div>
+    
+        </div>
+    </body>
+</html>
